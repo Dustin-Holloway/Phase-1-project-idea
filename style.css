@@ -1,5 +1,11 @@
+
+body {
+    background:rgb(207, 142, 142)
+}
+
 div {
-    background: red;
+    margin-left: auto;
+    margin-right: auto;
     width: 500px;
 }
 
