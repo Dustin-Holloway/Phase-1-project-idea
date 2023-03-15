@@ -3,23 +3,77 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     margin-top: 100px;
     text-align: center;
-    background:rgb(207, 142, 142)
+    background:rgb(139, 156, 162)
 }
 
-div {
+div.container {
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
     
 }
 
-img {
-    width: 600px;
+
+div.text-box {
+    font-size: 4rem;
+    font-weight: bolder;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+ul  {
+   
+    display: inline-flex;
+    padding: 10px;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+
+li {
+    color: rgb(139, 156, 162);
+    font-family: arial black;
+    padding: 10px;
+    background: rgb(118, 48, 48);
+    border-radius: 5px;
+    margin-inline: 20px;
+    
 }
 
 h1 {
-    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6rem;
+    color: white;
+    margin-bottom: 10px;
+    
+
+    ;
 }
 
 h2 {
-    font-weight: 100;
+    font-weight: 100px;
+}
+
+p {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5rem;
+    color: white;
+    
 }
